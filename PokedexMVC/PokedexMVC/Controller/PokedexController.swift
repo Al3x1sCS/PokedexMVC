@@ -59,7 +59,7 @@ extension PokdexControler {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! PokedexCell
-        cell.backgroundColor = .systemGray3
+        cell.backgroundColor = .mainPink()
         return cell
     }
     
